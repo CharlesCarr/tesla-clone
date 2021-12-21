@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Electric Cars, Solar & Clean Energy | Tesla</title>
+</head>
+
+<body>
+<div id='fullContainer'>
+    <header>
+        <!-- <div id="topAd">
+            <h3><a href="#">Read Tesla's 2020 Impact Report</a></h3>
+        </div> -->
+
+        <div class="flexContainer">
+
+            <div id="flexOne">
+                <!-- Will make this a button later -->
+                <img src="teslaWebsiteLogo.svg" alt="Tesla Logo" height="130" width="130"></img>
+            </div>
+
+            <div id="flexTwo">
+                <nav>
+                    <ul>
+                        <li class="topNavTag"><a href="#">Model S</a></li>
+                        <li class="topNavTag"><a href="#">Model 3</a></li>
+                        <li class="topNavTag"><a href="#">Model X</a></li>
+                        <li class="topNavTag"><a href="#">Model Y</a></li>
+                        <li class="topNavTag"><a href="#">Solar Roof</a></li>
+                        <li class="topNavTag"> <a href="#">Solar Panels</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="flexThree">
+                <nav>
+                    <ul>
+                        <li class="sideNav topNavTag"><a href="#">Shop</a></li>
+                        <li class="sideNav topNavTag"><a href="#">Account</a></li>
+                        <li id="menuButton">Menu</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+
+        </div>
+
+
+    </header>
+
+
+
+
+    <!-- Adding new div - may mess things with positioning (trying to position arrow) -->
+    <!-- <div> -->
+        <!-- <main> (Removing this tage for now so that CSS position for this can 
+        take percentages based off entire webpage - that was for position bottom buttons, 
+        should I create a new <div> and do flexbox for the top <h1> and <h3> or can I use one
+        flexbox for both?? - think will do separate for now-->
+        <div id="flexContainerMain">
+            <h1 id="modelS">Model S</h1>
+            <h3 id="modelS-description">Order Online for <a href="#">Touchless Delivery</a></h3>
+        </div>
+
+        <div id="bottomButtons">
+            <button id="buttonDark"><a href="#">Custom Order</a></button>
+            <button id="buttonLight"><a href="#">Existing Inventory</a></button>
+            
+        </div>
+        <!-- </main> -->
+
+        <!-- Think I will add this to the bottomButtons flexbox and position it that way - will need to create divs for all and restyle -->
+        <div id="arrow"><span class="material-icons md-48">keyboard_arrow_down</span></div>
+        
+    <!-- </div> -->
+
+</div>
+
+<div id="flexHiddenMenu">
+    <nav>
+        <ul>
+            <li id='closeOut'>X</li>
+            <li><a href="">Existing Inventory</a></li>
+            <li><a href="">Used Inventory</a></li>
+            <li><a href="">Trade-In</a></li>
+            <li><a href="">Test Drive</a></li>
+            <li><a href="">Cybertruck</a></li>
+            <li><a href="">Roadster</a></li>
+            <li><a href="">Semi</a></li>
+            <li><a href="">Charging</a></li>
+            <li><a href="">Powerwall</a></li>
+            <li><a href="">Commercial Energy</a></li>
+            <li><a href="">Utilities</a></li>
+            <li><a href="">Find Us</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Investor Relations</a></li>
+        </ul>
+    </nav>
+</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
