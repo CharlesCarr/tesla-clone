@@ -1,3 +1,7 @@
+// TESTING FOR GIT/GITHUB - 2nd Commit
+
+
+
 // Selecting Menu button and the hidden menu - adding click event to menu button
 const menuButton = document.getElementById('menuButton').addEventListener('click', openNav);
 const hiddenMenu = document.getElementById('flexHiddenMenu');
