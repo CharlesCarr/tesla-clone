@@ -1,0 +1,23 @@
+{
+  "name": "tesla",
+  "version": "1.0.0",
+  "description": "Rebuilt Tesla's [(tesla.com)](https://www.tesla.com/) landing page with HTML, CSS, and Vanilla JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesCarr/tesla-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesCarr/tesla-clone/issues"
+  },
+  "homepage": "https://charlescarr.github.io/tesla-clone",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
