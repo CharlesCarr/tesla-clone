@@ -4,8 +4,8 @@ Rebuilt Tesla's [(tesla.com)](https://www.tesla.com/) landing page with HTML, CS
 
 ## Project Description
 
-I built this Tesla landing page clone to test my development skills by taking a set design and replicating it to a high quality level.  
-I built this with HTML, CSS, and Vanilla JavaScript.  
+I built this Tesla landing page clone to test my development skills by taking a set design and replicating it to a high quality level. I built this with HTML, CSS, and Vanilla JavaScript.
+  
 A few areas of focus for this project include:   
 - Responsive, mobile-first design using media queries  
 - CSS animations using keyframes  
