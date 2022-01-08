@@ -15,4 +15,9 @@ A few areas of focus for this project include:
 ### Reference to Actual Tesla Website
 
 Actual Tesla Website (At time of build - Fall 2021)
-![Actual Tesla Website](https://github.com/CharlesCarr/tesla-clone/blob/main/images/ScreenshotTeslaActualWebsite.png "Actual Tesla Website 2021")
+![Actual Tesla Website](https://github.com/CharlesCarr/tesla-clone/blob/main/build/images/ScreenshotTeslaActualWebsite.png "Actual Tesla Website 2021")
+
+### Hosting
+
+Hosted with GitHub Pages
+Link: [Tesla Landing Page Clone](https://charlescarr.github.io/tesla-clone/)
