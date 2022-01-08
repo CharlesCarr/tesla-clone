@@ -20,4 +20,5 @@ Actual Tesla Website (At time of build - Fall 2021)
 ### Hosting
 
 Hosted with GitHub Pages
+
 Link: [Tesla Landing Page Clone](https://charlescarr.github.io/tesla-clone/)
